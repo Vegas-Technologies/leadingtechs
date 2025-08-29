@@ -7,7 +7,7 @@
     width: 45%;
 }
 .contact-section .lets-form {
-    width: 100%;
+    width: 100% !important  ;
 }
 .contact-section h2 {
     font-size: 32px;
@@ -66,6 +66,7 @@
     min-width: 23px;
     max-width: 23px;
 }
+
 @media (max-width: 991px) {
     .contact-section .image-text-image {
         order: 0;

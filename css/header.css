@@ -189,39 +189,3 @@ footer hr {
         width: 100%;
     }
 }
-
-li.has-submenu {
-    position: relative;
-}
-.main-header nav.main-nav .caret {
-    font-size: 24px;
-    margin-left: 5px;
-    vertical-align: middle;
-}
-.main-header nav.main-nav .submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: white;
-    list-style: none;
-    padding: 10px 0;
-    margin: 0;
-    min-width: 220px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-}
-.main-header nav.main-nav .submenu li a {
-    display: block;
-    padding: 10px 20px;
-    white-space: nowrap;
-    color: #161c2d;
-    font-size: 15px;
-    transition: background 0.3s ease;
-}
-.main-header nav.main-nav .submenu li a:hover {
-    background-color: #f0f0f0;
-}
-.main-header nav.main-nav li.has-submenu:hover .submenu {
-    display: block;
-}
